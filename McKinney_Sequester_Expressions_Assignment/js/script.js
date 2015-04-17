@@ -7,5 +7,5 @@
 
 //formula A = 2(wl+hl+hw)
 
-//first step is to get the length, width, and height
+//get the length, width, and height from users.
 
