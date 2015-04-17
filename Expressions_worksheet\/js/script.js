@@ -8,23 +8,24 @@
 var width = 30;
 var height = 20;
 
+//multiply width times height
+
 var area = width * height;
 
+//print the area of a rectangle
 console.log(area);
 
-// The circumference of the circle
 
-var radius = 6;
-const PI = 3.14159265;
-var circ = radius * 2 * PI;
+//calculate dog years
 
-console.log(“The circumference of the circle is “ + circ );
-
-
-//Dog Years calculation
-
-const dogYears = 7;
+const dogYears = 7; //set the const for dog years which is 7 for every one human year
 var humanYears = 1;
 
+//multiply dogYears times humanYears to get dogAge
+
 var dogAge = dogYears * humanYears;
+
+//print Sparky's human years and Sparky's dog age
 console.log("Sparky is "+ humanYears + "human years old which is " + dogAge + "in dog years");
+
+
