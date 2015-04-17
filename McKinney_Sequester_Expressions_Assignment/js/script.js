@@ -21,3 +21,5 @@ var height= prompt("Please enter the height.");
 //calcuates the surface area of the right rectangular prism
 var area = 2(length, width, height);
 
+console.log("The length is "+length+" The width is "+ width+" The height is "+height+" The surface area of the Right rectangular prism is "+area);
+
