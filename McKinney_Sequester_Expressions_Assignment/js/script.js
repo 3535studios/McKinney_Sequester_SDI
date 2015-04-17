@@ -18,8 +18,17 @@ var width = prompt("Please enter the width.");
 //enter the height value
 var height= prompt("Please enter the height.");
 
+//calculates length times width
+var twoAB = length * width * 2;
+
+//calculates length times height
+var twoBC = length * height * 2;
+
+//calculates width times height
+var twoAC = width * height * 2;
+
 //calcuates the surface area of the right rectangular prism
-var area = 2(length, width, height);
+var area = (twoAB + twoBC + twoAC);
 
 console.log("The length is "+length+" The width is "+ width+" The height is "+height+" The surface area of the Right rectangular prism is "+area);
 
