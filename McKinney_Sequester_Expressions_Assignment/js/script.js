@@ -31,7 +31,7 @@ var twoAC = prompts[1] * prompts[2] * 2;
 
 //calcuates the surface area of the right rectangular prism
 var area = twoAB + twoBC + twoAC;
-
+//prints out the values the user entered and displays the final results.
 console.log("The length is "+length+" The width is "+ width+" The height is "+height+" The surface area of the Right rectangular prism is "+area);
 
 /*	I typed the values of 3, 4, and 5 and the result was 94.  This is correct after verifying */
