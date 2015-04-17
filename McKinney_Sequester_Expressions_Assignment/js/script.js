@@ -36,5 +36,4 @@ console.log("The length is "+length+" The width is "+ width+" The height is "+he
 
 /*	I typed the values of 3, 4, and 5 and the result was 94.  This is correct after verifying */
 
-/* I typed the values of 5, 6, and 8 and the result was 94.  This is correct after verifying */
-  	
+/* I typed the values of 5, 6, and 8 and the result was 236.  This is correct after verifying */
