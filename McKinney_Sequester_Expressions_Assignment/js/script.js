@@ -16,19 +16,25 @@ var length = prompt("This will calculate the surface area of a right rectangular
 var width = prompt("Please enter the width.");
 
 //enter the height value
-var height= prompt("Please enter the height.");
+var height = prompt("Please enter the height.");
+
+var prompts = [length, width, height];
 
 //calculates length times width
-var twoAB = length * width * 2;
+var twoAB = prompts[0] * prompts[1] * 2;
 
 //calculates length times height
-var twoBC = length * height * 2;
+var twoBC = prompts[0] * prompts[2] * 2;
 
 //calculates width times height
-var twoAC = width * height * 2;
+var twoAC = prompts[1] * prompts[2] * 2;
 
 //calcuates the surface area of the right rectangular prism
-var area = (twoAB + twoBC + twoAC);
+var area = twoAB + twoBC + twoAC;
 
 console.log("The length is "+length+" The width is "+ width+" The height is "+height+" The surface area of the Right rectangular prism is "+area);
 
+/*	I typed the values of 3, 4, and 5 and the result was 94.  This is correct after verifying */
+
+/* I typed the values of 5, 6, and 8 and the result was 94.  This is correct after verifying */
+  	
