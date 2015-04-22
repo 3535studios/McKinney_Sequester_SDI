@@ -15,11 +15,19 @@ const base = 3;
 var length = prompt("This will calculate the volume of a right rectangular pyramid \n" + "Please enter the length.");
 
 	//enter the length value and if the field is blank the prompt will ask for the length value
-(length == '') ? prompt("Please enter the length.") : prompt("Please enter the width");
+(length == '') ? prompt("This field can't be blank.  Please enter the length.") : prompt("Please enter the width");
 
-//enter the height value
-var height = prompt("Please enter the height.");
+//enter the width value
+var width = prompt("Please enter the width.");
 
+if (width != '') {
+	//enter the height value
+	var height = prompt("Please enter the height.");
+} else {
+	var width = prompt("Please enter the width.");
+}
+
+//calculates the volume of a right rectangular pyramid
 var volume = length * width * height / base;
 
 
