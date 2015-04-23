@@ -19,6 +19,8 @@ if (length === "") {
 
 //enter the base width
 var width = prompt("Please enter the width");
+
+//validates if the width value is blank.
 if (width === "") {
 	width = prompt("This field is blank.\n Please enter the width.")
 } else {
@@ -26,6 +28,8 @@ if (width === "") {
 }
 //enter the pryamid height
 var height = prompt("Please enter the height");
+
+//validates if the height value is blank.
 if (height === "") {
 	height = prompt("This field is blank.\n Please enter the height.")
 } else {
@@ -34,14 +38,12 @@ if (height === "") {
 //the constant base is 3
 const base = 3;
 
+//calculates the volume of a right rectangular pyramid
 var volume = length * width * height / base;
 
 
 //prints out the values the user entered and displays the final results.
 console.log("You entered the length "+length+" You entered the width "+ width+" You entered the height "+height+" The volume of a right rectangular pyramid is "+volume);
-
-//validates that all fields have values
-(length === '' || width === '' || height === '') ? console.log("This caluclation will not be correct because at least one of the fields is blank.  Please refresh the page and try again.") : volumeCalc = length * width * height / base;
 
 /*	I typed the values of 4, 6, and 7 and the result was 56.  This is correct after verifying */
 
