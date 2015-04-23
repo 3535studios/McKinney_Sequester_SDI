@@ -40,12 +40,13 @@ const base = 3;
 //calculates the volume of a right rectangular pyramid
 var volume = length * width * height / base;
 
-//conditionals to determine what values have entered into the prompts
+//conditionals to determine the volume when 5,6,8 are entered
 if(length === "5" && width === "6" && height === "8") {
 	console.log("You have entered all the values to get a volume of 80.");
 
 	//prints out the values the user entered and displays the final results.
 	console.log("You entered the length "+length+" You entered the width "+ width+" You entered the height "+height+" The volume of a right rectangular pyramid is "+volume);
+//conditionals to determine the volume when 4,6,7 are entered
 } else if (length === "4" && width === "6" && height === "7") {
 	console.log("You have entered all the values to get a volume of 56.");
 	//prints out the values the user entered and displays the final results.
@@ -55,6 +56,7 @@ if(length === "5" && width === "6" && height === "8") {
 	console.log("You entered the length "+length+" You entered the width "+ width+" You entered the height "+height+" The volume of a right rectangular pyramid is "+volume);
 }
 
+//conditionals to determine the volume when 2,3,4 are entered
 if (length === "2" && width === "3" && height === "4") {
 	console.log("You have entered all the values to get a volume of 8.");
 } else {
