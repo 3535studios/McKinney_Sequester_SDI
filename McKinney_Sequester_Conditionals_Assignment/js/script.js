@@ -30,11 +30,8 @@ if (width === "") {
 var height = prompt("Please enter the height");
 
 //validates if the height value is blank.
-if (height === "") {
-	height = prompt("This field is blank.\n Please enter the height.")
-} else {
-	console.log("The value of this field "+height);
-}
+(height === "") ? height = prompt("This field is blank.\n Please enter the height.") : console.log("The value of this field "+height)
+
 //the constant base is 3
 const base = 3;
 
