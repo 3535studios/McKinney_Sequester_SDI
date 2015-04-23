@@ -11,13 +11,26 @@
 
 //enter the base length
 var length = prompt("Please enter the length");
+if (length === "") {
+	length = prompt("This field is blank.\n Please enter the length.")
+} else {
+	console.log("The value of this field "+length);
+}
 
 //enter the base width
 var width = prompt("Please enter the width");
-
+if (width === "") {
+	width = prompt("This field is blank.\n Please enter the width.")
+} else {
+	console.log("The value of this field "+width);
+}
 //enter the pryamid height
 var height = prompt("Please enter the height");
-
+if (height === "") {
+	height = prompt("This field is blank.\n Please enter the height.")
+} else {
+	console.log("The value of this field "+height);
+}
 //the constant base is 3
 const base = 3;
 
