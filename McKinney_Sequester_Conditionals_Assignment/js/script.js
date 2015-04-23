@@ -46,7 +46,7 @@ if(length === "5" && width === "6" && height === "8") {
 
 	//prints out the values the user entered and displays the final results.
 	console.log("You entered the length "+length+" You entered the width "+ width+" You entered the height "+height+" The volume of a right rectangular pyramid is "+volume);
-} else if (length === "4" || width === "6" || height === "7") {
+} else if (length === "4" && width === "6" && height === "7") {
 	console.log("You have entered all the values to get a volume of 56.");
 	//prints out the values the user entered and displays the final results.
 	console.log("You entered the length "+length+" You entered the width "+ width+" You entered the height "+height+" The volume of a right rectangular pyramid is "+volume);
@@ -54,6 +54,13 @@ if(length === "5" && width === "6" && height === "8") {
 	//prints out the values the user entered and displays the final results.
 	console.log("You entered the length "+length+" You entered the width "+ width+" You entered the height "+height+" The volume of a right rectangular pyramid is "+volume);
 }
+
+if (length === "2" && width === "3" && height === "4") {
+	console.log("You have entered all the values to get a volume of 8.");
+} else {
+	console.log("Since you didn't enter 2, 3, and 4. \n You have enter length "+length+" width "+width+" and height "+height+" giving you a volume of "+volume);
+}
+	 
 
 /*	I typed the values of 4, 6, and 7 and the result was 56.  This is correct after verifying */
 
