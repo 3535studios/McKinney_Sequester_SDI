@@ -13,7 +13,7 @@
 var length = prompt("Please enter the length");
 
 //validates if the length value is blank.
-if (length === "") {
+if (length === "" || length === null) {
 	length = prompt("This field is blank.\n Please enter the length.")
 } else {
 	console.log("The length you entered is "+length);
@@ -23,7 +23,7 @@ if (length === "") {
 var width = prompt("Please enter the width");
 
 //validates if the width value is blank.
-if (width === "") {
+if (width === "" || width === null) {
 	width = prompt("This field is blank.\n Please enter the width.")
 } else {
 	console.log("The width you entered is "+width);
@@ -32,7 +32,7 @@ if (width === "") {
 var height = prompt("Please enter the height");
 
 //validates if the height value is blank using ternary conditional
-(height === "") ? height = prompt("This field is blank.\n Please enter the height.") : console.log("The height you entered is "+height)
+(height === "" || height === null) ? height = prompt("This field is blank.\n Please enter the height.") : console.log("The height you entered is "+height)
 
 //the constant base is 3
 const base = 3;
