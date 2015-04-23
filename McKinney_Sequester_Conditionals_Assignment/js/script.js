@@ -12,7 +12,7 @@
 //enter the base length
 var length = prompt("Please enter the length");
 
-//validates if the length value is blank.
+//validates if the length value is blank or null.
 if (length === "" || length === null) {
 	length = prompt("This field is blank.\n Please enter the length.")
 } else {
@@ -22,7 +22,7 @@ if (length === "" || length === null) {
 //enter the base width
 var width = prompt("Please enter the width");
 
-//validates if the width value is blank.
+//validates if the width value is blank or null.
 if (width === "" || width === null) {
 	width = prompt("This field is blank.\n Please enter the width.")
 } else {
@@ -31,7 +31,7 @@ if (width === "" || width === null) {
 //enter the pyramid height
 var height = prompt("Please enter the height");
 
-//validates if the height value is blank using ternary conditional
+//validates if the height value is blank or null using ternary conditional
 (height === "" || height === null) ? height = prompt("This field is blank.\n Please enter the height.") : console.log("The height you entered is "+height)
 
 //the constant base is 3
