@@ -3,11 +3,13 @@
 	Assignment: Functions Assignment
 */
 
-//calculate compound annual growth rate for investments
+//calculate compound annual growth rate for investments (cagr)
 
 //formula ((current value/initial value)^(1/n))-1
 
+// while loop to validate each prompt
 
+// function to perform calculation for cagr
 	 
 
 /*	I typed the values of 4, 6, and 7 and the result was 56.  This is correct after verifying */
