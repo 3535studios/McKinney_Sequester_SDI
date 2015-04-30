@@ -10,7 +10,13 @@
 // while loop to validate each prompt
 
 // function to perform calculation for cagr
-	 
+
+// normal function
+
+// anonymous function
+
+// final results of calculation
+
 
 /*	I typed the values of 4, 6, and 7 and the result was 56.  This is correct after verifying */
 
