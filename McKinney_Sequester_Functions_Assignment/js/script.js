@@ -32,14 +32,18 @@ while (numOfYears == "") {
 }
 
 // function to perform calculation for cagr
+var results = ((currentValue/initialValue)Math.pow(1/numOfYears))-1;
+console.log("The compound annual growth rate on your investment is " + myCAGR);
 
+/*
 // normal function
-/* function CAGR(currentValue,initialValue,numOfYears) {
+var myCAGR = CAGR(5000,10000,12);
+function CAGR(currentValue,initialValue,numOfYears) {
 	// final results of calculation
 	var results = ((currentValue/initialValue)Math.pow(1/numOfYears))-1;
 	return results;
 }
-console.log("The compound annual growth rate on your investment is " + results); */
+console.log("The compound annual growth rate on your investment is " + myCAGR); */
 
 // anonymous function
 /* var finalCal = function CAGR(currentValue,initialValue,numOfYears) {
