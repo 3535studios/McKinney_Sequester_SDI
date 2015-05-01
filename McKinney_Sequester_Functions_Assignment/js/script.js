@@ -31,14 +31,13 @@ while (numOfYears == "") {
 	console.log("This field can not be blank. \n Please enter the number years you have had the investment.")
 }
 
-
 // function to perform calculation for cagr
 
 // normal function
 function CAGR(currentValue,initialValue,numOfYears) {
 	// final results of calculation
-	((currentValue/initialValue)Math.pow(1/numOfYears))-1;
-	
+	var results = ((currentValue/initialValue)Math.pow(1/numOfYears))-1;
+
 }
 
 // anonymous function
