@@ -8,7 +8,7 @@
 //formula ((current value/initial value)^(1/n))-1
 
 //enter the initial value of the investment
-var currentValue = prompt("Please enter the current value of your investment");
+var currentValue = prompt("Please enter the current value of your investment.");
 
 // while loop to validate the current value prompt
 while (currentValue == "") {
@@ -16,7 +16,7 @@ while (currentValue == "") {
 }
 
 //enter the initial value of the investment
-var initialValue = prompt("Please enter the initial ");
+var initialValue = prompt("Please enter the initial value of your investment.");
 
 // while loop to validate the initial value prompt
 while (initialValue == "") {
@@ -32,8 +32,8 @@ while (numOfYears == "") {
 }
 
 // function to perform calculation for cagr
-var results = ((currentValue/initialValue)Math.pow(1/numOfYears))-1;
-console.log("The compound annual growth rate on your investment is " + myCAGR);
+var results = Math.pow((currentValue/initialValue),(1/numOfYears))-1;
+console.log("The compound annual growth rate on your investment is " + results);
 
 /*
 // normal function
@@ -55,8 +55,8 @@ console.log("The compound annual growth rate on your investment is " + myCAGR); 
 console.log("The compound annual growth rate on your investment is " + results); */
 
 
-/*	I typed the values of 5000, 10000, and 12 and the result was 56.  This is correct after verifying */
+/*	I typed the values of 15000, 5000, and 12 and the result was 0.09587269113524433.  This is correct after verifying */
 
-/* I typed the values of 15000, 20000, and 10 and the result was 80.  This is correct after verifying */
+/* I typed the values of 20000, 3000, and 10 and the result was 0.2089013820911636.  This is correct after verifying */
 
-/* I typed the values of 20000, 50000, and 8 and the result was 8.  This is correct after verifying */
+/* I typed the values of 50000, 20000, and 8 and the result was 0.12135339197013861.  This is correct after verifying */
