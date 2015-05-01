@@ -35,24 +35,23 @@ while (numOfYears == "") {
 var results = Math.pow((currentValue/initialValue),(1/numOfYears))-1;
 console.log("The compound annual growth rate on your investment is " + results);
 
-/*
 // normal function
-var myCAGR = CAGR(5000,10000,12);
+var myCAGR = CAGR(15000,5000,12);
 function CAGR(currentValue,initialValue,numOfYears) {
 	// final results of calculation
-	var results = ((currentValue/initialValue)Math.pow(1/numOfYears))-1;
+	var results = Math.pow((currentValue/initialValue),(1/numOfYears))-1;
 	return results;
 }
-console.log("The compound annual growth rate on your investment is " + myCAGR); */
+console.log("The compound annual growth rate on your investment is " + myCAGR);
 
 // anonymous function
-/* var finalCal = function CAGR(currentValue,initialValue,numOfYears) {
+var finalCal = function(currentValue,initialValue,numOfYears) {
 	// final results of calculation
-	var results = ((currentValue/initialValue)exp(1/numOfYears))-1;
+	var results = Math.pow((currentValue/initialValue),(1/numOfYears))-1;
  	return results;
 }
-
-console.log("The compound annual growth rate on your investment is " + results); */
+var finalCal = CAGR(20000,3000,10);
+console.log("The compound annual growth rate on your investment is " + finalCal);
 
 
 /*	I typed the values of 15000, 5000, and 12 and the result was 0.09587269113524433.  This is correct after verifying */
