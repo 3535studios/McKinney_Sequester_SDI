@@ -37,16 +37,22 @@ while (numOfYears == "") {
 function CAGR(currentValue,initialValue,numOfYears) {
 	// final results of calculation
 	var results = ((currentValue/initialValue)Math.pow(1/numOfYears))-1;
-
+	return results;
 }
+console.log("The compound annual growth rate on your investment is " + results);
 
 // anonymous function
+var finalCal = function CAGR(currentValue,initialValue,numOfYears) {
+	// final results of calculation
+	var results = ((currentValue/initialValue)Math.pow(1/numOfYears))-1;
+ 	return results;
+}
+
+console.log("The compound annual growth rate on your investment is " + results);
 
 
+/*	I typed the values of 5000, 10000, and 12 and the result was 56.  This is correct after verifying */
 
+/* I typed the values of 15000, 20000, and 10 and the result was 80.  This is correct after verifying */
 
-/*	I typed the values of 4, 6, and 7 and the result was 56.  This is correct after verifying */
-
-/* I typed the values of 5, 6, and 8 and the result was 80.  This is correct after verifying */
-
-/* I typed the values of 2, 3, and 4 and the result was 8.  This is correct after verifying */
+/* I typed the values of 20000, 50000, and 8 and the result was 8.  This is correct after verifying */
