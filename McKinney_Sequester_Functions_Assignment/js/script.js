@@ -36,7 +36,7 @@ var results = Math.pow((currentValue/initialValue),(1/numOfYears))-1;
 console.log("The compound annual growth rate on your investment is " + results);
 
 // normal function
-var myCAGR = CAGR(15000,5000,12);
+var myCAGR = CAGR(currentValue,initialValue,numOfYears);
 function CAGR(currentValue,initialValue,numOfYears) {
 	// final results of calculation
 	var results = Math.pow((currentValue/initialValue),(1/numOfYears))-1;
@@ -45,13 +45,13 @@ function CAGR(currentValue,initialValue,numOfYears) {
 console.log("The compound annual growth rate on your investment is " + myCAGR);
 
 // anonymous function
-var finalCal = function(currentValue,initialValue,numOfYears) {
-	// final results of calculation
+var convertToPercent = function(currentValue,initialValue,numOfYears) {
+	// percent of final results
 	var results = Math.pow((currentValue/initialValue),(1/numOfYears))-1;
- 	return results;
+ 	return results * 100;
 }
-var finalCal = CAGR(20000,3000,10);
-console.log("The compound annual growth rate on your investment is " + finalCal);
+var finalPercent = convertToPercent(currentValue,initialValue,numOfYears);
+console.log("The percentage of your investment is " + finalPercent);
 
 
 /*	I typed the values of 15000, 5000, and 12 and the result was 0.09587269113524433.  This is correct after verifying */
